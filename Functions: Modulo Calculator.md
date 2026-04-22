@@ -11,17 +11,15 @@ To write a Python program that defines a function which accepts two values and r
 5. Call the `result` function with the user-provided values.
 
 ## 🧾 Program
-    def result(a,b):     # Defining a function
+    def result(a,b):     
+    c = a % b
 
-    c = a % b        # taking ,modulus of a to b
-
-    print(c)         # to print c
-
-    a = int(input())     # getting a input-1 from user
+    print(c)         
+    a = int(input())
     
-    b = int(input())     # getting a input-2 from user
+    b = int(input())     
     
-    result(a,b)          # calling a function result with parameters a & b
+    result(a,b)          
 
 
 
