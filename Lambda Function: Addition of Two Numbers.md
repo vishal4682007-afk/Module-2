@@ -9,13 +9,12 @@ To write a Python program that defines a **lambda function** which takes two arg
 3. Call the function with the user inputs and print the result.
 
 ## 🧾 Program
-a = int(input())           # to get input-1 from the user
+a = int(input())
+b = int(input())
 
-b = int(input())           # to get input-1 from the user
+sum = lambda a,b: a+b      
 
-sum = lambda a,b: a+b      # defining a lambda function to add two numbers to the variable sum 
-
-print(sum(a,b))            # to print the output of the lambda sum
+print(sum(a,b))            
 Add code here
 
 ## Output
